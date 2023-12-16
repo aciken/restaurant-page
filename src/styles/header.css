@@ -1,0 +1,26 @@
+.nav{
+    height: 80px;
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    font-size:1.2rem ;
+    align-items: center;
+}
+
+.nav img{
+    height: 40px;
+    width: auto;
+}
+
+ul{
+    gap: 50px;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
