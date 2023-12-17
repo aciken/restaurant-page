@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+body{
+    font-family: 'CustomFont';
+}

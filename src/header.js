@@ -1,4 +1,4 @@
-import Logo from "../src/assets/UFClogo.png";
+import Logo from "../src/assets/KFClogo.png";
 
 
 const headerBuild = () =>{
