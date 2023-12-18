@@ -1,0 +1,19 @@
+.footer{
+    min-height: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-col{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
