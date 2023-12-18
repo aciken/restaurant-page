@@ -19,6 +19,7 @@ const headerBuild = () =>{
 
     const anchor1 = document.createElement('a');   
     const listEl1 = document.createElement('li');
+    anchor1.classList.add('home');
     anchor1.href = "#"
     anchor1.textContent = 'text1';
     listEl1.appendChild(anchor1)
@@ -26,6 +27,7 @@ const headerBuild = () =>{
 
     const anchor2 = document.createElement('a');
     const listEl2 = document.createElement('li');
+    anchor2.classList.add('order');
     anchor2.href = "#"
     anchor2.textContent = 'text2';
     listEl2.appendChild(anchor2)
@@ -33,6 +35,7 @@ const headerBuild = () =>{
 
     const anchor3 = document.createElement('a');
     const listEl3 = document.createElement('li');
+    anchor3.classList.add('contact');
     anchor3.href = "#"
     anchor3.textContent = 'text3';
     listEl3.appendChild(anchor3)
