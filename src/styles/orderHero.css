@@ -1,0 +1,37 @@
+.hero-grid{
+    display: grid;
+    padding: 0 25%;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 300px);
+    background-color: #dc2626;
+    justify-items: center;
+    align-items: center;
+}
+
+.food-card{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 20px;
+    background-color: #fcd34d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    transition: .4s;
+}
+
+.food-card:hover{
+    background-color: #facc15;
+    scale: 102%;
+}
+
+.food-card img{
+    height: 100px;
+    width: auto;
+}
+
+.clicked{
+    text-decoration: 1.5px #dc2626 underline;
+}
