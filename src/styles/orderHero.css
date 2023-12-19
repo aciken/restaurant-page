@@ -1,6 +1,11 @@
+.order-page{
+    height: 120%;
+}
+
 .hero-grid{
     display: grid;
     padding: 0 25%;
+    height: 100%;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-template-rows: repeat(3, 300px);
     background-color: #dc2626;

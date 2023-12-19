@@ -8,7 +8,7 @@ import MenuFries from "../src/assets/MenuFries.png";
 const orderHeroBuild = () =>{
 
     const hero = document.createElement('div');
-    hero.classList.add('hero');
+    hero.classList = 'hero order-page';
     content.appendChild(hero);
 
     const heroGrid = document.createElement('div');
